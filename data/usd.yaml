@@ -1,0 +1,9 @@
+# 学習データのパスを指定する
+train: USD/train/images
+val: USD/valid/images
+test: USD/test/images
+# 検出のクラス数
+nc: 7
+
+# クラス名
+names: ["cryst", "epith", "cast", "leuko", "epithn", "eryth", "mycete"]
